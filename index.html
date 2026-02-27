@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer type="module" src="./script.js"></script>
+  <title>resturant-ordering-app</title>
+</head>
+
+<body>
+  <main class="app">
+    <div class="app__top-banner">
+      <img src="./IMG/header.png" alt="" class="app__top-img">
+    </div>
+    <section class="details_info">
+      <!-- <div class="app__card">
+        <img src="./IMG/beer.png" alt="" class="app__card-icon">
+        <div class="card_info">
+          <h2>Pizza</h2>
+          <p style="color: #8B8B8B;">pepperoni,mushrom,mozarella</p>
+          <h4>$14</h4>
+        </div>
+        <button class="card-btn">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div> -->
+    </section>
+
+    <section class="order__section">
+      <h4>Your order</h4>
+      <div class="item__box">
+        <!-- <div class="order_item">
+          <p>Pizza<button class="remove_item">❌</button></p>
+          <p>$14</p>
+        </div>
+        <div class="order_item">
+          <p>Pizza</p>
+          <p>$14</p>
+        </div> -->
+      </div>
+      <hr>
+      <div class="order_sum">
+        <p>Total price:</p>
+        <p>$<span class="net__expense"></span></p>
+      </div>
+
+      <button class="order__submit--btn">
+        Complete order
+      </button>
+
+
+    </section>
+    <!-- Popup model -->
+     <section class="popup_section">
+      <h2>Enter card details</h2>
+      <form id="myForm">
+        <input type="text" id="name" required placeholder="Enter your name">
+        <input type="number" required
+        placeholder="Enter card number">
+        <input type="number" required placeholder="Enter CVV">
+        <button type="submit" class="pay__submit">Pay</button>
+      </form>
+     </section>
+
+     <!-- Thank u section -->
+      <section class="thank_you--sec">
+        <h3>Thanks, <span class="buyer"></span>! Your order is on its way!</h3>
+      </section>
+  </main>
+</body>
+
+</html>
