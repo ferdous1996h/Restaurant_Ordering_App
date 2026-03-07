@@ -18,4 +18,4 @@
 
 ## TechStack Used
 
-![TechStack](https://skillicons.dev/icons?i=html,css,js,react,bun,vite)
+![TechStack](https://skillicons.dev/icons?i=html,css,js,bun,vite)
